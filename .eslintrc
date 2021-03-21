@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "semi": "off", // отключаю ошибки когда не ставлю запятые в коде
+    "arrow-parens": "off", // круглые скобки на один паррамертр стрелочной функции
+    "spaced-comment": "off", // коментарии
+    "max-len": "off",
+    "comma-dangle": "off", // запятая после последнего свойства
+    "require-jsdoc": "off" // js doc
+  },
+  "extends": ["eslint:recommended", "google"]
+}
