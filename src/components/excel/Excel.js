@@ -21,6 +21,10 @@ export class Excel {
 
             const component = new Component($el) // наследнеик excel компонента
 
+            // DEBUG
+            // if (component.name) {
+            //     window['c' + component.name] = component
+            // }
             // добавляю элементу разметку каждого класса общим методом html и toHTML
             $el.html(component.toHTML())
             // помещаю в главный контейнер разметку каждого из классов
