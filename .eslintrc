@@ -11,7 +11,8 @@
     "spaced-comment": "off", // коментарии
     "max-len": "off",
     "comma-dangle": "off", // запятая после последнего свойства
-    "require-jsdoc": "off" // js doc
+    "require-jsdoc": "off", // js doc
+    "operator-linebreak": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
